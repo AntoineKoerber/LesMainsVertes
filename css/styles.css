@@ -10972,8 +10972,8 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 footer.footer .social-link {
   display: block;
@@ -11012,7 +11012,7 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: 80vh;
-  padding-top: 8rem;
+  padding-top: 5rem;
   padding-bottom: 8rem;
   background-color: white;
   background: url("../assets/img/bg-masthead.jpg");
@@ -11022,14 +11022,14 @@ footer.footer .social-link:hover {
   opacity: 0.8;
 }
 
-.masthead h1, .masthead .h1 {
+.masthead h1{
   font-size: 5rem;
   margin: 0;
   padding: 0;
   color: #fff;
   display: inline-block;
   width: 100%;
-  clear: both;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 992px) {
 
@@ -11043,6 +11043,15 @@ footer.footer .social-link:hover {
 .masthead h3 {
     color: black;
     background-color: #fff;
+}
+
+#about {
+    margin:0;
+    padding:50px;
+    line-height: 1.5rem;
+}
+#about h4 {
+    line-height: 1.5;
 }
 
 .portfolio-item {
@@ -11121,11 +11130,22 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-#about {
-    margin:0;
-    padding:50px;
-    line-height: 1.5rem;
+#contact div {
+    border-radius:5%;
+    padding: 50px 0 50px 0;
+    background-color: #116530;
 }
-#about h4 {
-    line-height: 1.5;
+
+#contact{
+    padding: 3rem;
 }
+
+#contact h4 {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+#contact h1{
+    padding-bottom:1rem;
+}
+
+
