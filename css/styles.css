@@ -11041,7 +11041,8 @@ footer.footer .social-link:hover {
   }
 }
 .masthead h3 {
-    color: #fff;
+    color: black;
+    background-color: #fff;
 }
 
 .portfolio-item {
